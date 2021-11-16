@@ -1,0 +1,194 @@
+html {
+  /* background-image: url("fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgba(203, 108, 230, 0.15);
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Indie Flower", "script MT", sans-serif;
+  font-size:80px;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: Bradley Hand, cursive
+}
+
+#banner {
+  background:rgba(203, 108, 230, 0.85);
+  background-image: url("../banner.png");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+
+#banner .navegacao {
+  margin: 0;
+}
+
+.sociais {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  transform: scale(0.8);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bloco {
+  background: rgba(255, 255, 255, 0.3);
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.bloco blockquote:before {
+  content: "\"";
+  font-size: 2rem;
+}
+
+.bloco blockquote {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.bloco blockquote:after {
+  content: "\"";
+  font-size: 2rem;
+}
+
+.artigo blockquote {
+   background: rgba(255, 255, 255, 0.5);
+   display: block;
+   width: 30%;
+   margin: 0 auto;
+   padding: 2rem;
+}
+
+.artigo blockquote {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.artigo blockquote {
+  margin-left: 200px;
+  margin-top: 3rem;
+  float: left;
+}
+
+.artigo2 blockquote {
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.artigo2 blockquote {
+ width: 30%;
+ margin: 0 auto;
+ font-size: 1rem;
+ letter-spacing: 1px;
+}
+
+.artigo2 blockquote {
+ margin-left: 200px;
+ margin-top: 3rem;
+ float: left;
+}
+
+.div {
+  font-weight: bold;
+  font-family: "Indie Flower", "script MT", sans-serif;
+}
+
+#foto {
+  display: block;
+  background-color: seashell;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-image: url(perfil2.png);
+  background-size: cover;
+  position: absolute;
+  left: 120px;
+	top: 220px;
+  transform: rotate(280deg);
+}
+
+.conteudo {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.5rem;
+  border-radius: 4rem;
+}
+
+.navegacao {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.navegacao li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navegacao li a {
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  padding: .5rem;
+  border-radius: .5rem;
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#contgaleria img {
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#contjogos h2 {
+  margin-top: 500px;
+  margin-left: 50px;
+
+}
+
+#contjogos img {
+  width: 350px;
+  height: 300px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-left: 1000px;
+}
+video{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
